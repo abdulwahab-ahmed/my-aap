@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Cairo', sans-serif;
+}
+.container{
+    width: 70%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Cairo', sans-serif;
+    border-top: 2px solid black;
+}
+#subject{
+    padding: 5px;
+    width: 247px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#titel{
+    padding: 5px;
+    width: 247px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}   
+.container img{
+    margin-top: 40px;
+    width: 350px;
+    border-top: 2px solid black;
+}
+.form{
+    margin: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    background-color: silver;
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+    font-family: 'Cairo', sans-serif;
+    border-bottom: 2px solid black;
+    
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+input[type="file"]{
+    font-size: 19px;
+    margin-bottom: 15px;
+    font-family: 'Cairo', sans-serif;
+}
+input[type='submit']{
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    width: 260px;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #2c3537;
+    color: white;
+}
+input[type='submit']:hover{
+    background-color: #d4ac0d;
+}
+.linko{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+}
+.filed{
+    color: rgb(236, 114, 114);
+    font-size: 17px;
+    font-family: 'Cairo', sans-serif;
+
+}
+.succes{
+    color: rgb(73, 230, 73);
+    font-size: 17px;
+    font-family: 'Cairo', sans-serif;
+}

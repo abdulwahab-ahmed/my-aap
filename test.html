@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qwaran appt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-video">
+        <div class="video">
+            <video src="video/1.mp4" class="video-player"></video>
+            <div class="footer">
+                <div class="footer-text">
+                    <h3>Abdulwahab Ahmed</h3>
+                    <p class="description"> welcome to my app</p>
+                    <div class="img-marq">
+                        <img src="image/uparrow_arriba_1538.png">
+                        <marquee>helle worled to my app best</marquee>
+                    </div>
+                </div>
+                <img src="image/player.png" class="image-playe">
+            </div>
+        </div>
+    </div>
+    
+    <div class="app-video">
+        <div class="video">
+            <video src="video/2.mp4" class="video-player"></video>
+            <div class="footer">
+                <div class="footer-text">
+                    <h3>Abdulwahab Ahmed</h3>
+                    <p class="description"> welcome to my app</p>
+                    <div class="img-marq">
+                        <img src="image/uparrow_arriba_1538.png">
+                        <marquee>helle worled to my app best</marquee>
+                    </div>
+                </div>
+                <img src="image/player.png" class="image-playe">
+            </div>
+        </div>
+    </div>
+    <script>
+        const videos = document .querySelectorAll('video');
+        for (const video of videos){
+            video.addEventListener('click',function(){
+                if(video.paused){
+                    video.play();
+                }
+                else{
+                    video.pause();
+                }
+            })
+        }
+    </script>
+</body>
+</html>
